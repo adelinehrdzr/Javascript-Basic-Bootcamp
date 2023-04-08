@@ -1,0 +1,18 @@
+
+const lista = new Array(5);
+
+lista[0] = "Adeline";
+lista[1] = 23;
+lista[2] = true;
+lista[3] = new Date("August 30 1999");
+
+const libro = {
+  titulo: "Los ojos de mi princesa",
+  autor: "Carlos C. Sanchez",
+  fecha: new Date("September 20 2004"),
+  url: "https://bibliotecaia.ism.edu.ec/Repo-book/l/Los-ojos-princesaSanchez.pdf"
+};
+
+lista[4] = libro;
+
+console.log(lista);
